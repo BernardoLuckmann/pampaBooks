@@ -1,11 +1,9 @@
 const express = require('express');
 const UsuarioController = require('../controllers/userController');
-const verificarToken = require('../middleware/middlewareAutorizacao')
 const usuarioRouter = express.Router();
 
 usuarioRouter
 .get("/usuarios", UsuarioController.listaUsuarios)
-.get("/dadosProtegidos", verificarToken)
 .get("/usuario/:id", UsuarioController.readUsuario)
 .post("/usuario", UsuarioController.createUsuario)
 .post("/usuario/token", UsuarioController.createUsuario)
