@@ -1,0 +1,63 @@
+body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #E6EFE8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#logo {
+    margin-top: 6%;
+}
+
+#login {
+    margin-left: 25%
+}
+
+#cadastro {
+    margin-left: 29%
+}
+
+.top-bar {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9CC5A1;
+    padding: 1%;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: #F3F7F4;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    height: 95vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formularios {
+    padding-top: 10%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 5%;
+}
+
+#submit-login{
+    margin-left: 45%;
+}
+
+#submit-cadastro{
+    margin-left: 40%;
+}

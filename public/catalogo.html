@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesCatalogo.css">
+    <script src="scriptsCatalogo.js" async></script>
+    <title>PampaBooks</title>
+</head>
+<body>
+        <div class="top-bar">
+            <a href="catalogo.html"><h1 id="logo">PampaBooks</h1></a>
+            <a href="login.html"><h2>Entrar</h2></a>
+            <a href="historico.html"><h2>Histórico</h2></a>
+        </div>
+
+        <div class="principal">
+            <table id="tabela-livros-disponiveis">
+                <caption>
+                  Todos os livros disponíveis hoje.
+                  <button type="submit" id="submit-pedido">Adicionar ao carrinho</button>
+                  <button type="submit" id="submit-avaliacoes">Enviar avaliações</button>
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Livro</th>
+                    <th scope="col">Autores</th>
+                    <th scope="col">Descricao</th>
+                    <th scope="col">Categorias</th>
+                    <th scope="col">Gêneros</th>
+                    <th scope="col">Avaliação</th>
+                    <th scope="col">Adicionar ao carrinho</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+        </div>
+</body>
+</html>

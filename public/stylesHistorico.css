@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #E6EFE8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#logo {
+    margin-top: 1%;
+}
+
+.top-bar {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9CC5A1;
+    padding: 1%;
+    margin-bottom: 25%;
+}
+
+.tabela-pedido {
+    padding: 2%;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F3F7F4;
+    padding-top: 6%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 10px;
+}
+
+caption {
+    padding-top: 10%;
+    justify-content: center;
+    caption-side: top;
+    font-weight: bold;
+}
