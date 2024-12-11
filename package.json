@@ -1,5 +1,5 @@
 {
-  "name": "pampaBooks",
+  "name": "pampabooks",
   "version": "1.0.0",
   "description": "Aplicação completa de um servidor para e-commerce.",
   "main": "index.js",
