@@ -1,7 +1,7 @@
 {
-  "name": "api-aula",
+  "name": "pampaBooks",
   "version": "1.0.0",
-  "description": "API básica em JavaScript.",
+  "description": "Aplicação completa de um servidor para e-commerce.",
   "main": "index.js",
   "scripts": {
     "start": "node app.js"
